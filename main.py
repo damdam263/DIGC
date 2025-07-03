@@ -26,7 +26,7 @@ import os
 #torch.use_deterministic_algorithms(True)
 
 def parse_args():
-    args = argparse.ArgumentParser(description='DGCluster arguments.')
+    args = argparse.ArgumentParser(description='DIGC arguments.')
     args.add_argument('--dataset', type=str, default='cora')
     args.add_argument('--lam', type=float, default=0.8)
     args.add_argument('--alp', type=float, default=0.8)
